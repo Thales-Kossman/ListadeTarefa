@@ -126,6 +126,19 @@ h1 {
         overflow: auto;
     }
 
+     .tarefa {
+        display: flex;
+        flex-flow: row wrap;
+        margin-bottom: 3%;
+        margin-left: 5%;
+        width: 90%;
+        height: 50px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(237, 237, 237);
+        box-shadow: 0 0 20px #ccc;
+        cursor: pointer;
+    }
     #arealista {
         width: 100%;
         flex-wrap: wrap;
