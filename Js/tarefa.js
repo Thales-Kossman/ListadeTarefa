@@ -20,7 +20,7 @@ function addTarefa() {
         <div class="item-nome" onclick="marcar(${contador})">${valorInput}
         </div>
         <div class="item-botao">
-            <button onclick="deletar(${contador})" class="deletar"><img src="/IMG/remove.png" alt=""></button>
+            <button onclick="deletar(${contador})" class="deletar"><img src="/img/remove.png" alt=""></button>
         </div>
         </div>`;
         //adicionar itens na lista
